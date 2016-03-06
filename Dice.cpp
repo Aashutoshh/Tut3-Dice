@@ -24,6 +24,8 @@ float average( int arr[], int noOfInt){
 	return sum / noOfInt;
 }
 
+
+
 class Dice{
 
 public:
@@ -39,6 +41,7 @@ public:
 
 int main(){
 	float average(Dice obj, int noOfRolls);
-	//Dice a;
-//	cout << "average with object "<< average(a, 10) ;
+	int a[10] = {5.0,2.0,4.0,3.0,1.0,6.0,5.0,5.0,5.0,4.0};
+    cout << "average with object "<< average(a, 10) ;
+	return 0;
 }
