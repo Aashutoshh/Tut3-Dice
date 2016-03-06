@@ -1,5 +1,8 @@
 #include "Dice.h"
 #include "cstdlib" 
+#include "iostream"
+
+using namespace std;
 
 float average(Dice obj,  int noOfRolls){
 	float sum= 0.0;
@@ -21,10 +24,8 @@ float average( int arr[], int noOfInt){
 	return sum / noOfInt;
 }
 
-class Dice
-{
-private:
-	 
+class Dice{
+
 public:
 	Dice(){
 	};
@@ -36,4 +37,8 @@ public:
 	}
 };
 
-
+int main(){
+	float average(Dice obj, int noOfRolls);
+	//Dice a;
+//	cout << "average with object "<< average(a, 10) ;
+}
